@@ -3,7 +3,7 @@ const port = process.env.PORT || 3003;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Jenkin Aws docker-hub'
+  const msg = 'Hello Jenkin Aws DockerHub'
   res.end(msg);
 });
 
